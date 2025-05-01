@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: "OmahKunci",
   description: "Ayo beli kunci di OmahKunci",
   icons: {
-    icon: "/images/omah-adalah-kunci.png",
+    icon: "/images/omah-adalah-kunci.ico",
   }
 };
 
