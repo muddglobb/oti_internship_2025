@@ -42,13 +42,16 @@ const ContactUs = () => {
           onSwiper={(swiper) => (swiperRef.current = swiper)}
           spaceBetween={0}
           slidesPerView={1.3}
+          slidesPerGroup={1}
           loop={true}
           breakpoints={{
             640: {
               slidesPerView: 2,
+              slidesPerGroup: 2,
             },
             1024: {
               slidesPerView: 3,
+              slidesPerGroup: 3,
             },
           }}
         >
