@@ -6,11 +6,17 @@ const Hero = () => {
     <div className="flex flex-col items-center justify-center text-white h-screen
     px-10 
     md:px-20">
-      <Image
+      {/* <Image
         src="/images/hero-background.jpg"
         alt="background"
         fill
         className="absolute top-0 left-0 w-full object-cover -z-10 mask-b-from-0%"
+      ></Image> */}
+      <Image
+        src="/images/basecamp-omahti.webp"
+        alt="background"
+        fill
+        className="absolute top-0 left-0 w-full object-cover -z-10 mask-b-from-20%"
       ></Image>
 
       <p className="font-extrabold 
