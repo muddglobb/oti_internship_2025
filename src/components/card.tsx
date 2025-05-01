@@ -13,7 +13,7 @@ const Card = ({ card }: CardProps) => {
     <div className="p-2 shadow-lg h-full flex flex-col items-center w-55">
       {/* Container untuk gambar lingkaran */}
       <Link href={link}>
-        <div className="w-55 h-55 rounded-full overflow-hidden mb-4 relative">
+        <div className="w-55 h-55 rounded-full overflow-hidden mb-4 relative border-1 border-[#545454]">
           <Image
             src={image}
             alt="Card image"
@@ -23,7 +23,7 @@ const Card = ({ card }: CardProps) => {
           />
         </div>
       </Link>
-      <p className="text-white font-extrabold text-xl">{name}</p>
+      <p className="text-white font-extrabold text-xl text-center">{name}</p>
 
       {/* <p className="text-gray-600">{link}</p> */}
     </div>

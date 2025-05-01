@@ -13,10 +13,12 @@ const ContactUs = () => {
   const swiperRef = useRef<SwiperType | null>(null);
 
   const cards = [
-    { id: 1, image: '/images/hero-background.jpg', link: 'https://www.linkedin.com/in/dhimas-sulistio/', name: 'Dhimas Sulistio' },
-    { id: 2, image: '/images/hero-background.jpg', link: 'https://www.linkedin.com/in/dhimas-sulistio/', name: 'Dhimas Sulistio' },
-    { id: 3, image: '/images/hero-background.jpg', link: 'https://www.linkedin.com/in/dhimas-sulistio/', name: 'Dhimas Sulistio' },
-    { id: 4, image: '/images/hero-background.jpg', link: 'https://www.linkedin.com/in/dhimas-sulistio/', name: 'Dhimas Sulistio' },
+    { id: 1, image: '/images/jawa-adalah-kunci/ken.png', link: 'wa.me/+6282114198478', name: 'Ken Bima Satria Gandasasmita' },
+    { id: 2, image: '/images/jawa-adalah-kunci/satya.png', link: 'wa.me/+6281216760668', name: 'Satya Wira Pramudita' },
+    { id: 3, image: '/images/jawa-adalah-kunci/iffah.png', link: 'wa.me/+6282134623295', name: 'Iffa Hesti Adlik Putri' },
+    { id: 4, image: '/images/jawa-adalah-kunci/kenji.png', link: 'wa.me/+6281371089032', name: 'Kenji Ratanaputra' },
+    { id: 5, image: '/images/jawa-adalah-kunci/geraldine.png', link: 'wa.me/+6282132031290', name: 'Geraldine' },
+    { id: 6, image: '/images/jawa-adalah-kunci/andre.png', link: 'wa.me/+6285257490028', name: 'Andre' },
   ];
 
   return (
