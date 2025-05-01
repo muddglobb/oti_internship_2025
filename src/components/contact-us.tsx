@@ -52,62 +52,66 @@ const ContactUs = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      {/* Tombol Prev */}
-      <button
-        onClick={() => swiperRef.current?.slidePrev()}
-        className="bg-black text-white p-3 rounded-lg"
-      >
-        <ChevronLeft />
-      </button>
+    <div className="flex flex-col gap-20 items-center justify-center h-screen">
+      <p className="text-white font-extrabold text-5xl">Get access to Basecamp <span className="text-[#F0861A]">through us!</span></p>
 
-      {/* Swiper */}
-      <div
-        className="w-full 
+      <div className="flex items-center justify-center">
+        {/* Tombol Prev */}
+        <button
+          onClick={() => swiperRef.current?.slidePrev()}
+          className="bg-black text-white p-3 rounded-lg"
+        >
+          <ChevronLeft />
+        </button>
+
+        {/* Swiper */}
+        <div
+          className="w-full 
       max-w-[300px]
       sm:max-w-[400px]
       md:max-w-[600px]
       lg:max-w-4xl"
-      >
-        <Swiper
-          modules={[Navigation]}
-          onSwiper={(swiper) => (swiperRef.current = swiper)}
-          spaceBetween={0}
-          slidesPerView={1}
-          slidesPerGroup={1}
-          loop={true}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
-            },
-            1024: {
-              slidesPerView: 3,
-              slidesPerGroup: 3,
-            },
-          }}
         >
-          {cards.map((card) => (
-            <SwiperSlide key={card.id}>
-              {/* <div className="bg-white rounded-lg p-6 shadow-lg h-full">
+          <Swiper
+            modules={[Navigation]}
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            spaceBetween={0}
+            slidesPerView={1}
+            slidesPerGroup={1}
+            loop={true}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                slidesPerGroup: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+                slidesPerGroup: 3,
+              },
+            }}
+          >
+            {cards.map((card) => (
+              <SwiperSlide key={card.id}>
+                {/* <div className="bg-white rounded-lg p-6 shadow-lg h-full">
                 <h2 className="font-semibold text-lg mb-2">{card.title}</h2>
                 <p className="text-gray-600">{card.description}</p>
               </div> */}
-              <div className="flex justify-center">
-                <Card card={[card.image, card.link, card.name]} />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+                <div className="flex justify-center">
+                  <Card card={[card.image, card.link, card.name]} />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
 
-      {/* Tombol Next */}
-      <button
-        onClick={() => swiperRef.current?.slideNext()}
-        className="bg-black text-white p-3 rounded-lg"
-      >
-        <ChevronRight />
-      </button>
+        {/* Tombol Next */}
+        <button
+          onClick={() => swiperRef.current?.slideNext()}
+          className="bg-black text-white p-3 rounded-lg"
+        >
+          <ChevronRight />
+        </button>
+      </div>
     </div>
   );
 };
