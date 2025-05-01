@@ -19,7 +19,7 @@ const Hero = () => {
         className="absolute top-0 left-0 w-full object-cover -z-10 mask-b-from-20%"
       ></Image>
 
-      <p className="font-extrabold 
+      <p className="font-extrabold pb-3 
       text-3xl
       lg:text-6xl">
         We Are Omah<span className="text-[#F0861A]">Kunci</span>

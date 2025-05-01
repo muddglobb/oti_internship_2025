@@ -13,7 +13,7 @@ const Location = () => {
       ">
         <MapEmbed />
         <div>
-          <p className="font-extrabold 
+          <p className="font-extrabold pb-3
           text-3xl
           md:text-5xl">
             SEE OUR <span className="text-[#F0861A]">LOCATION</span>
