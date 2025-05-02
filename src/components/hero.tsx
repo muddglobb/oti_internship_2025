@@ -28,14 +28,13 @@ const Hero = () => {
       text-center
       text-[14px]
       lg:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante
-        tortor, fringilla ut auctor nec, vulputate varius dolor.
+        Want to head to basecamp but don’t have access to the keys? Omah Kunci lets you contact key holders!
       </p>
-      <p className="font-medium italic 
+      {/* <p className="font-medium italic 
       text-[12px]
       lg:text-xl">
         “Curabitur pulvinar nisl sit amet libero”
-      </p>
+      </p> */}
     </div>
   );
 };
