@@ -53,7 +53,7 @@ const ContactUs = () => {
 
   return (
     <div className="flex flex-col gap-20 items-center justify-center h-screen">
-      <p className="text-white font-extrabold text-5xl text-center">Get access to Basecamp <span className="text-[#F0861A]">through us!</span></p>
+      <p className="text-white font-extrabold text-5xl text-center">Get access to <span className="text-[#F0861A]">Basecamp</span> through us!</p>
 
       <div className="flex items-center justify-center">
         {/* Tombol Prev */}
