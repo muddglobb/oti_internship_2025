@@ -16,37 +16,37 @@ const ContactUs = () => {
     {
       id: 1,
       image: "/images/jawa-adalah-kunci/ken.png",
-      link: "wa.me/6282114198478?text=Halo%20kak%20Ken,%20aku%20mau%20pinjam%20kunci%20Basecamp",
+      link: "wa.me/628211419847?text=Halo%20kak%20Ken,%20aku%20mau%20pinjam%20kunci%20Basecamp",
       name: "Ken Bima Satria Gandasasmita",
     },
     {
       id: 2,
       image: "/images/jawa-adalah-kunci/satya.png",
-      link: "wa.me/6281216760668?text=Halo%20Satya,%20aku%20mau%20pinjam%20kunci%20Basecamp",
+      link: "wa.me/628121676066?text=Halo%20Satya,%20aku%20mau%20pinjam%20kunci%20Basecamp",
       name: "Satya Wira Pramudita",
     },
     {
       id: 3,
       image: "/images/jawa-adalah-kunci/iffah.png",
-      link: "wa.me/6282134623295?text=Halo%20kak%20Iffa,%20aku%20mau%20pinjam%20kunci%20Basecamp",
+      link: "wa.me/628213462329?text=Halo%20kak%20Iffa,%20aku%20mau%20pinjam%20kunci%20Basecamp",
       name: "Iffa Hesti Adlik Putri",
     },
     {
       id: 4,
       image: "/images/jawa-adalah-kunci/kenji.png",
-      link: "wa.me/6281371089032?text=Halo%20Kenji,%20aku%20mau%20pinjam%20kunci%20Basecamp",
+      link: "wa.me/628137108903?text=Halo%20Kenji,%20aku%20mau%20pinjam%20kunci%20Basecamp",
       name: "Kenji Ratanaputra",
     },
     {
       id: 5,
       image: "/images/jawa-adalah-kunci/geraldine.png",
-      link: "wa.me/6282132031290?text=Halo%20kak%20Geraldine,%20aku%20mau%20pinjam%20kunci%20Basecamp",
+      link: "wa.me/628213203129?text=Halo%20kak%20Geraldine,%20aku%20mau%20pinjam%20kunci%20Basecamp",
       name: "Geraldine",
     },
     {
       id: 6,
       image: "/images/jawa-adalah-kunci/andre.png",
-      link: "wa.me/6285257490028?text=Halo%20kak%20Andre,%20aku%20mau%20pinjam%20kunci%20Basecamp",
+      link: "wa.me/628525749002?text=Halo%20kak%20Andre,%20aku%20mau%20pinjam%20kunci%20Basecamp",
       name: "Andre",
     },
   ];
